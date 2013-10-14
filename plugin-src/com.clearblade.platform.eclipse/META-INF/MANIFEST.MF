@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Eclipse
+Bundle-SymbolicName: com.clearblade.platform.eclipse; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.clearblade.platform.eclipse.Activator
+Bundle-Vendor: CLEARBLADE
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources,
+ org.eclipse.ui.editors;bundle-version="3.7.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
